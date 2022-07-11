@@ -9,7 +9,6 @@
 
 // Include the Curses library
 // Don't forget to install it on your computer!
-#include <ncurses.h>
 	
 
 
