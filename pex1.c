@@ -8,11 +8,11 @@
  * ============================================================= */
 
 // Include the Curses library
-// Don't forget to install it on your computer!
 	
 
 
 // Put Your Drawing Functions Here
+// Remember that at least one must use parameters
 
 
 
