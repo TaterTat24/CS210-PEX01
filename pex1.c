@@ -10,17 +10,22 @@
 // Include the Curses library
 #include <ncurses.h>
 
+#define WHITE_BLUE
+
 // Put Your Drawing Functions Here
 // Remember that at least one must use parameters
 
-
+void displayUSFlag(int xCoordinate, int yCoordinate) {
+    
+}
 
 // Put Your Main Function Here
 int main(int argc, char const *argv[]) {
     initscr(); // Start curses mode
 
-    start_color();
+    start_color(); // enable color
     
+    //init_pair(WHITE_BLUE, COLOR_WHITE, COLOR_BLUE); // define color pair WHITE_BLUE
 
     move(40, 70); //move cursor near bottom of the window
     printw("Created with Curses By C2C Benjamin Tat"); // display a message 
