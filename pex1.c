@@ -19,7 +19,7 @@
 // Put Your Drawing Functions Here
 // Remember that at least one must use parameters
 
-/** 
+/**
  *----------------------------------
  * Displays U.S. Flag
  * @param yCoordinate - Y-Coordinate of U.S. Flag location
